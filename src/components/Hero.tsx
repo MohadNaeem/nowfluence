@@ -1,10 +1,10 @@
 "use client";
-
+import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="bg-[#ecf8fe] py-12 px-6">
+    <section className="bg-[#e4f4fc] py-12 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Side */}
         <div className="space-y-6">
@@ -31,11 +31,12 @@ export default function Hero() {
             cursus accumsan at aenean penatibus maecenas.
           </p>
 
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-black font-semibold">
+          <div className="flex items-center gap-4 flex-wrap">
+            <span className="text-xs text-black font-bold">
               Requested Start Date: MM/DD/YYYY
             </span>
-            <button className="text-sm font-semibold border border-black text-black bg-white rounded px-4 py-2 hover:bg-gray-100 transition">
+            <button className=" ml-5 flex items-center gap-2 text-sm font-semibold border border-black text-black bg-white rounded-md px-7 py-[4px] hover:bg-gray-100 transition leading-[1.4]">
+              <ArrowDownTrayIcon className="w-4 h-4 text-black" />
               View Campaign Brief
             </button>
           </div>

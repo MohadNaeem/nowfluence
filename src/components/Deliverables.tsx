@@ -14,7 +14,7 @@ export default function Deliverables() {
         <div className="space-y-10">
           {/* Instagram */}
           <div className="flex justify-center">
-            <div className="flex items-start gap-6">
+            <div className="flex items-start gap-12">
               <Image
                 src="/insta-logo.png"
                 alt="Instagram Logo"
@@ -30,7 +30,7 @@ export default function Deliverables() {
 
           {/* TikTok */}
           <div className="flex justify-center">
-            <div className="flex items-start gap-6">
+            <div className="flex items-start gap-12">
               <Image
                 src="/tiktok-logo.png"
                 alt="TikTok Logo"
@@ -46,7 +46,7 @@ export default function Deliverables() {
 
           {/* YouTube */}
           <div className="flex justify-center">
-            <div className="flex items-start gap-6">
+            <div className="flex items-start gap-12">
               <Image
                 src="/yt-logo.png"
                 alt="YouTube Logo"
