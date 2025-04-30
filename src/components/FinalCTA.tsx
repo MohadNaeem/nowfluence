@@ -9,7 +9,7 @@ export default function FinalCTA() {
           <h2 className="text-2xl font-bold text-black">
             Additional Information
           </h2>
-          <p className="text-black text-base leading-relaxed max-w-3xl">
+          <p className="text-black text-base leading-relaxed w-full">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In the
             pursuit of excellence, individuals often find themselves driven by a
             desire to push boundaries, unlocking new potential within
@@ -21,7 +21,7 @@ export default function FinalCTA() {
 
         {/* CTA */}
         <div className="text-center space-y-4">
-          <h3 className="text-xl font-bold text-[#385a74]">
+          <h3 className="text-3xl font-semibold text-[#385a74]">
             Interested in this Campaign?
           </h3>
           <p className="text-base text-black font-bold">
