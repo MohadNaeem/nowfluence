@@ -31,11 +31,11 @@ export default function Hero() {
             tempor. Justo maximus cursus accumsan at aenean penatibus maecenas.
           </p>
 
-          <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4 gap-2">
-            <span className="text-xs text-black font-bold">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4 gap-2 sm:ml-2 mb-6">
+            <div className="text-xs text-black font-bold text-center sm:text-left sm:whitespace-nowrap">
               Requested Start Date: MM/DD/YYYY
-            </span>
-            <button className="ml-10 flex items-center justify-center gap-2 text-sm font-semibold border border-black text-black bg-white rounded-md px-6 py-[6px] hover:bg-gray-100 transition leading-[1.4] w-full sm:w-auto">
+            </div>
+            <button className="ml-0 sm:ml-10 flex items-center gap-2 text-sm font-semibold border border-black text-black bg-white rounded-md px-9 py-[3px] hover:bg-gray-100 transition leading-[1.4] whitespace-nowrap w-full sm:w-auto justify-center sm:justify-start">
               <ArrowDownTrayIcon className="w-4 h-4 text-black" />
               View Campaign Brief
             </button>
