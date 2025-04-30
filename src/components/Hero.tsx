@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="bg-[#e4f4fc] py-12 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center">
         {/* Left Side */}
-        <div className="space-y-6">
+        <div className="space-y-6 max-w-[500px]">
           <p className="text-sm text-gray-500 font-medium">Brand Name</p>
 
           <h2 className="text-3xl font-bold text-black">Campaign Title Here</h2>
@@ -27,15 +27,15 @@ export default function Hero() {
             pharetra vestibulum metus, elit fringilla magnis quis class. Finibus
             auctor maximus, donec rutrum condimentum commodo? Himen aenas
             consequat non per sollicitudin maximus ex nostra enim ridiculus.
-            Ipsum litora elit mi enim aenean vitae tortor tempor. Justo maximus
-            cursus accumsan at aenean penatibus maecenas.
+            Ipsum litora elit mi enim aenean vitae tortor maecenas curabitur
+            tempor. Justo maximus cursus accumsan at aenean penatibus maecenas.
           </p>
 
-          <div className="flex items-center gap-4 flex-wrap">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4 gap-2">
             <span className="text-xs text-black font-bold">
               Requested Start Date: MM/DD/YYYY
             </span>
-            <button className=" ml-5 flex items-center gap-2 text-sm font-semibold border border-black text-black bg-white rounded-md px-7 py-[4px] hover:bg-gray-100 transition leading-[1.4]">
+            <button className="ml-10 flex items-center justify-center gap-2 text-sm font-semibold border border-black text-black bg-white rounded-md px-6 py-[6px] hover:bg-gray-100 transition leading-[1.4] w-full sm:w-auto">
               <ArrowDownTrayIcon className="w-4 h-4 text-black" />
               View Campaign Brief
             </button>
